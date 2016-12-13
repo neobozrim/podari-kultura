@@ -45,12 +45,12 @@ body {
     height: 100%;
 }
 
-.col-xs-6.blockquote {
-
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019"; 
+.blockquote {
+    background: #f9f9f9;
+    box-sizing: padding-box;
+    padding: 1em 2em 1em 2em;
+    border-left: 5px solid #ccc;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 .container-fluid {
@@ -76,37 +76,24 @@ dd {
     font-size: 1.3em; 
 }
 
-.hero-copy {
-    position: relative;
-    top: 20%;
-    left: 5%;
-    font-family: sans-serif;
-    font-size: 3em;
-}
-
-#header_copy {
-    margin-left: 15%;
-}
-
-.hero-page {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #668014;
-    background: -webkit-linear-gradient(left top, #668014, yellow);
-    /* For Safari 5.1 to 6.0 */
-}
 
 #main-content-wrapper {
     margin: 0 15% 0 15%;
 }
 
-span.uppercase {
-    text-transform: uppercase;
+.new-header {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #668014;
+    background: -webkit-linear-gradient(left top, #668014, yellow);
 }
-.page-logo {
+
+.logo-brand {
+     font-family:Resagokr;
+}
+
+#page-logo {
     position: relative;
     top: 5%;
     left: 5%;
@@ -114,13 +101,30 @@ span.uppercase {
     font-size: 2em;
 }
 
-.page-moto {
+#page-moto {
     position: relative;
     top: 5%;
     left: 5%;
     font-size: 1.5em;
 }
 
+.big-copy {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family:Phenomena;
+    text-shadow: 2px 2px 5px blue;
+}
+
+#title {
+    padding-top: 10%;
+    font-size:10em;
+}
+
+#tagline {
+    padding-bottom: 5%;
+    font-size:3em;
+}
 /********************* responsive columns *********************/
 /********************* responsive columns *********************/
 
@@ -128,6 +132,11 @@ span.uppercase {
     content: "";
     clear: both;
     display: table;
+}
+
+.referrer {
+    font-weight:bold; 
+    color:darkgrey;
 }
 
 [class*="col-"] {
@@ -140,6 +149,19 @@ span.uppercase {
 
 /********************* media rules *********************/
 /********************* media rules *********************/
+
+@media only screen and (max-width: 768px) {
+    #title {
+    font-size:8em;
+    padding-bottom: 5%;
+}
+    #tagline {
+    font-size:2em;
+}
+    .main-content-wrapper {
+        margin: 0 0 0 0;
+    }
+}
 
 @media only screen and (min-width: 600px) {
     .col-m-1 {
