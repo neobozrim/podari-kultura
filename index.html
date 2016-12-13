@@ -12,35 +12,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/595694a706.js"></script>
-    <title>Подари култура</title>
-
+    <title>Професия.БГ</title>
     <!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup {
-            background: #fff;
+            background: #fed20c;
             clear: left;
             font: 14px Helvetica, Arial, sans-serif;
-            width: 100%;
         }
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-		  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
-        <!-- HERO PAGE -->
-        <!-- testing hew hero slide -
-        <div class="hero-page col-md-12">
-            <div class="page-logo" style="font-family:Resagokr">Професия.БГ</div>
-            <div class="page-moto" style="font-family:Resagokr">в търсене на “яката работа" в БГ</div>
-            <div class="hero-copy">
-                <p id="project_title" class="col-xs-8" style="font-family:Phenomena; font-size:3em">Вълнуващи професии в България?</p>
-                <h1 id="project_tagline" class="col-xs-8" style="font-family:Phenomena; font-size:1em">Помогни ни да ти ги представим!</h1>
-            </div>
-        </div>
--->
 
         <div class="new-header">
             <div class="logo-brand" id="page-logo">Професия.БГ</div>
@@ -64,27 +51,68 @@
                         <dd>Запиши се!</dd>
                     </dl>
                     <!-- Mailchimp -->
+
                     <div id="mc_embed_signup">
                         <form action="//github.us14.list-manage.com/subscribe/post?u=f83f33ac523f38c5f4db21819&amp;id=eaecbd112d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL">Искам ваучер! : )</label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                <h1 id="copy-question">Ще помогна с тестването : )</h1>
+                                <div class="indicates-required"><span class="asterisk">*</span> задължителни поленца</div>
+                                <div class="mc-field-group">
+                                    <label for="mce-FNAME" id="form-label">Моето име <span class="asterisk">*</span>
+                                    </label>
+                                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                                </div>
+                                <div class="mc-field-group">
+                                    <label for="mce-LNAME" id="form-label">Моята фамилия </label>
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                                </div>
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL" id="form-label">Email <span class="asterisk">*</span>
+                                    </label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div class="mc-field-group size1of2">
+                                    <label for="mce-MMERGE3" id="form-label">Моят мобилен: <span class="asterisk">*</span>
+                                    </label>
+                                    <input type="text" name="MMERGE3" class="required" value="" id="mce-MMERGE3">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                     <input type="text" name="b_f83f33ac523f38c5f4db21819_eaecbd112d" tabindex="-1" value="">
                                 </div>
                                 <div class="clear">
-                                    <input type="submit" value="Запиши ме!" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    <input type="submit" value="Запиши ме!" name="subscribe" id="mc-embedded-subscribe" class="button" id="form-label">
                                 </div>
                             </div>
                         </form>
                     </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script type='text/javascript'>
+                        (function ($) {
+                            window.fnames = new Array();
+                            window.ftypes = new Array();
+                            fnames[1] = 'FNAME';
+                            ftypes[1] = 'text';
+                            fnames[2] = 'LNAME';
+                            ftypes[2] = 'text';
+                            fnames[0] = 'EMAIL';
+                            ftypes[0] = 'email';
+                            fnames[3] = 'MMERGE3';
+                            ftypes[3] = 'phone';
+                        }(jQuery));
+                        var $mcj = jQuery.noConflict(true);
+                    </script>
+                    <!--End mc_embed_signup-->
 
                 </div>
 
                 <div class="col-md-6 col-md-pull-6">
                     <dl>
-                        <dt><h3 id="copy-question"><i class="fa fa-question-circle fa-2x"></i>     Защо сме се захванали?</h3></dt>
+                        <dt><h3 id="copy-question"><i class="fa fa-question fa-2x"></i>     Защо сме се захванали?</h3></dt>
                         <dd> Защото в България има страааашно много хора, които работят интересни неща, харесват работата си и… печелят достъчно, за да се чувстват добре.</dd>
                         <br>
                         <dd> И защото искаме тези хора да станат още повече!</dd>
@@ -102,9 +130,9 @@
 
             </div>
 
-            <!-- TESTIMONIALS ROW MINE -->
+            <!-- TESTIMONIALS ROW -->
 
-            <div class="row">
+            <div class="row" style="margin-top:3%;">
                 <div class="col-6">
                     <p class="blockquote">"Не предполагах, че има толкова яки неща, които работят младите хора в България. Пред очите ми се откри цял един нов свят от възможности. Много ми беше полезно и да променя мисленето си относно изборите, които правя - по всяко време мога да поема в друга посока."
                         <br><span class="referrer">Диана Живкова, 120-то СОУ, София</span></p>
@@ -116,8 +144,18 @@
             </div>
 
         </div>
-        <footer class="col-xs-12" style="height:15%">
-            <p>IDK</p>
+    <br>
+    <br>
+    <br>
+        <footer class="row" style="margin:0 15% 0 15% 0">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <p>Професия.БГ е добороволно-организирана инициатива,<br> която има за цел да предостави информация на ученици и студенти относно вълнуващи професии,<br> които съществуват в момента в България.<br>С текущата страница събираме доброволци, които биха искали да тестват платформата ни,<br> преди я отворим за външния свят.</p>
+            </div>
+            <div class="col-4"><p>Искате да ни пишете? емайл адресче</p>
+            <p>Лице за контакт: Явор Попов</p>
+            </div>
+            <div class="col-2"></div>
         </footer>
 
     </div>
