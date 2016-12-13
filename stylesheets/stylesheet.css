@@ -199,8 +199,8 @@ footer {
     #tagline {
         font-size: 2em;
     }
-    .main-content-wrapper {
-        margin: 0 0 0 0;
+    #main-content-wrapper {
+        margin: 0 5% 0 5%;
     }
 }
 
@@ -212,8 +212,8 @@ footer {
     #tagline {
         font-size: 2em;
     }
-    .main-content-wrapper {
-        margin: 0 0 0 0;
+    #main-content-wrapper {
+        margin: 0 2% 0 2%;
     }
 }
 
